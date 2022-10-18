@@ -1,0 +1,70 @@
+.teclado {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "colum1-header colum2-header colum3-header colum4-header"
+    "colum1-7 colum2-8 colum3-9 colum4-footer"
+    "colum1-4 colum2-5 colum3-6 colum4-footer"
+    "colum1-1 colum2-2 colum3-3 colum4-footer"
+    "colum1-footer colum2-footer colum3-footer colum4-footer";
+  justify-content: center;
+  background-color: #2e2e2e;
+  gap: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin: 0px;
+  width: 400px;
+}
+.colum1-header {
+  grid-area: colum1-header;
+}
+.colum2-header {
+  grid-area: colum2-header;
+}
+.colum3-header {
+  grid-area: colum3-header;
+}
+.colum4-header {
+  grid-area: colum4-header;
+}
+.colum1-7 {
+  grid-area: colum1-7;
+}
+.colum2-8 {
+  grid-area: colum2-8;
+}
+.colum3-9 {
+  grid-area: colum3-9;
+}
+.colum1-4 {
+  grid-area: colum1-4;
+}
+.colum2-5 {
+  grid-area: colum2-5;
+}
+.colum3-6 {
+  grid-area: colum3-6;
+}
+.colum1-1 {
+  grid-area: colum1-1;
+}
+.colum2-2 {
+  grid-area: colum2-2;
+}
+.colum3-3 {
+  grid-area: colum3-3;
+}
+.colum1-footer {
+  grid-area: colum1-footer;
+}
+.colum2-footer {
+  grid-area: colum2-footer;
+}
+.colum3-footer {
+  grid-area: colum3-footer;
+}
+.colum4-footer {
+  grid-area: colum4-footer;
+  background-color: #f46c3f;
+}
