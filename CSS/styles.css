@@ -44,34 +44,3 @@ body {
   width: 90px;
   transition-duration: 0.3s;
 }
-
-.colum1-header:hover,
-.colum2-header:hover,
-.colum3-header:hover,
-.colum4-header:hover{
-  background-color: #557B83;
-}
-
-.colum1-7:hover,
-.colum2-8:hover,
-.colum2-8:hover,
-.colum3-9:hover,
-.colum1-4:hover,
-.colum2-5:hover,
-.colum3-6:hover,
-.colum1-1:hover,
-.colum2-2:hover,
-.colum3-3:hover,
-.colum1-footer:hover{
-  background-color: #f46c3f;
-}
-.colum2-footer:hover{
-  background-color: #557B83;
-}
-.colum3_1-footer:hover,
-.colum3-footer:hover{
-  background-color: crimson;
-}
-.colum4-footer:hover{
-  background-color: #ed8554;
-}
