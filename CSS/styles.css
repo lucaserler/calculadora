@@ -12,6 +12,7 @@ body {
   font-family: Cascadia Code ExtraLight;
   text-align: end;
   width: 395px;
+  height: 90px;
 }
 .colum1-header,
 .colum2-header,
@@ -30,6 +31,7 @@ body {
 .colum1-footer,
 .colum2-footer,
 .colum3-footer,
+.colum3_1-footer,
 .colum4-footer {
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
@@ -66,6 +68,7 @@ body {
 .colum2-footer:hover{
   background-color: #557B83;
 }
+.colum3_1-footer:hover,
 .colum3-footer:hover{
   background-color: crimson;
 }

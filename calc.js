@@ -11,6 +11,17 @@ let novoNumero = true;
 const inserirNumero = (evento) => atualizarDsiplay(evento.target.textContent);
 const operacaoParada = () => operador !== undefined;
 
+const apagarCalculo = () => {
+    limparDisplay();
+    operador = undefined;
+    novoNumero = true;
+    primeiroNumero = undefined;
+}
+document.getElementById('apagarCalculo').addEventListener('click', apagarCalculo);
+
+const limparDisplay = () => display.textContent = ' ';
+document.getElementById("limparDisplay").addEventListener('click', limparDisplay);
+
 const igual = () => { 
     calcular(); 
     operador = undefined;
