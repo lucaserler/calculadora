@@ -53,7 +53,7 @@ document.getElementById("virgula").addEventListener("click", decimal);
 
 const calcular = () => {
   if (operacaoParada()) {
-    const ultimoNumero = parseFloat(display.textContent.replace(".", " ").replace(',', '.'));
+    const ultimoNumero = parseFloat(display.textContent.replace(",", ".").replace(',', '.'));
     novoNumero = true;
     const resultado = eval(`${primeiroNumero}${operador}${ultimoNumero}`);
     atualizarDsiplay(resultado);
@@ -74,7 +74,7 @@ const selecionarOperador = (evento) => {
     calcular();
     novoNumero = true;
     operador = evento.target.textContent;
-    primeiroNumero = parseFloat(display.textContent.replace(".", "."));
+    primeiroNumero = parseFloat(display.textContent.replace(",", "."));
     //console.log(operador);
   }
 };
