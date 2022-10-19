@@ -1,7 +1,8 @@
 .colum1-header:hover,
 .colum2-header:hover,
 .colum3-header:hover,
-.colum4-header:hover {
+.colum4-header:hover,
+.colum5-header:hover {
   background-color: #557b83;
 }
 
@@ -33,7 +34,8 @@
 .colum1-header:active,
 .colum2-header:active,
 .colum3-header:active,
-.colum4-header:active {
+.colum4-header:active,
+.colum5-header:active {
   background-color: #4d6a70;
 }
 .colum1-7:active,

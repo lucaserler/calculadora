@@ -28,9 +28,29 @@ const igual = () => {
 };
 document.getElementById("resultado").addEventListener('click', igual);
 
+const trocarSinal = () => {
+  novoNumero = true;
+  atualizarDsiplay(display.textContent * -1);
+}
+document.getElementById("PN").addEventListener('click', trocarSinal);
+
+
+const existeDecimal = () => display.textContent.indexOf(',') != -1;
+const existeNumero = () => display.textContent.length > 0;
+const decimal = () => {
+  if(!existeDecimal()){
+    if(existeNumero()){
+      atualizarDsiplay(',')
+    }else{
+      atualizarDsiplay('0,')
+    }
+  }
+}
+document.getElementById("virgula").addEventListener('click', decimal)
+
 const calcular = () => {
   if (operacaoParada()) {
-    const ultimoNumero = parseFloat(display.textContent);
+    const ultimoNumero = parseFloat(display.textContent.replace(',' , '.'));
     novoNumero = true;
     const resultado =eval(`${primeiroNumero}${operador}${ultimoNumero}`);
     atualizarDsiplay(resultado);
@@ -39,10 +59,10 @@ const calcular = () => {
 
 const atualizarDsiplay = (texto) => {
   if (novoNumero) {
-    display.textContent = texto;
+    display.textContent = texto.toLocaleString('BR');
     novoNumero = false;
   } else {
-    display.textContent += texto;
+    display.textContent += texto.toLocaleString('BR');
   }
 };
 
@@ -51,10 +71,13 @@ const selecionarOperador = (evento) => {
     calcular();
     novoNumero = true;
     operador = evento.target.textContent;
-    primeiroNumero = parseFloat(display.textContent.replace('.' , ' ').replace(',' , '.'));
+    primeiroNumero = parseFloat(display.textContent.replace('.' , '.'));
     //console.log(operador);
   }
 };
 
 numeros.forEach((numero) => numero.addEventListener("click", inserirNumero));
 operadores.forEach((operador) => operador.addEventListener("click", selecionarOperador));
+
+/////////////////////////////////RECONHECIMENTO-TECLADO/////////////////////////////////
+

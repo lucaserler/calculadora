@@ -5,7 +5,7 @@
   grid-template-areas:
     "colum3_1-footer colum2-header colum3-header colum4-header"
     "colum1-7 colum2-8 colum3-9 colum1-header"
-    "colum1-4 colum2-5 colum3-6 colum4-footer"
+    "colum1-4 colum2-5 colum3-6 colum5-header"
     "colum1-1 colum2-2 colum3-3 colum4-footer"
     "colum1-footer colum2-footer colum3-footer colum4-footer";
   justify-content: center;
