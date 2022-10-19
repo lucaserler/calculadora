@@ -3,16 +3,46 @@ body {
   padding: 0px;
   margin: 0px;
 }
+.historico {
+  font-family: Cascadia Code ExtraLight;
+  background-color: #353535;
+  padding: 15px;
+  width: 40em;
+  border: 1px solid;
+  border-image-slice: 1%;
+  border-image-source: linear-gradient(95deg,
+  #3e54d3,
+  #4f80e2,
+  #15cdca,
+  #4fe086
+  );
+}
+
+.historico h3 {
+  text-align: center;
+  font-size: 25px;
+}
+.area {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: #293556;
+  border-radius: 10px;
+  margin-left: 35px;
+  margin-top: 35px;
+  margin-right: 35px;
+  padding: 20px;
+}
 .visor {
   border: 2px solid rgb(171, 175, 171);
   border-radius: 10px;
   background-color: #2e2e2e;
   color: cornsilk;
-  font-size: 5em;
+  font-size: 3em;
   font-family: Cascadia Code ExtraLight;
   text-align: end;
-  width: 395px;
-  height: 90px;
+  width: 265px;
+  height: 55px;
 }
 .colum1-header,
 .colum2-header,
@@ -38,10 +68,10 @@ body {
   border: none;
   border-radius: 10px;
   padding: 15px;
-  font-size: 3em;
+  font-size: 25px;
   font-family: Cascadia Code ExtraLight;
   text-align: center;
   cursor: pointer;
-  width: 90px;
+  width: 58px;
   transition-duration: 0.3s;
 }
