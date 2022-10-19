@@ -6,7 +6,18 @@ Projeto de um calculadora | HTML-JavaScript-CSS
 <li>CSS3</li>
 <li>JavaScript</li>
 </ul>
-
+<ul>
+<p><h3>Funções da Calculadora usadas nesse projeto</h3></p>
+</ul>
+<li>Soma - +</li>
+<li>Subtração - -</li>
+<li>Multiplicação - *</li>
+<li>Divisão - /</li>
+<li>Mais ou Menos - ±</li>
+<li>Apagar Calculo - AC</li>
+<li>Apagar - A</li>
+<li></li>
+<li></li>
 <ul>
 <p><h3>Usado para o layout</h3></p>
 <li>grid-template-columns</li>
