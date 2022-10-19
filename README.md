@@ -16,8 +16,6 @@ Projeto de um calculadora | HTML-JavaScript-CSS
 <li>Mais ou Menos - ±</li>
 <li>Apagar Calculo - AC</li>
 <li>Apagar - A</li>
-<li></li>
-<li></li>
 <ul>
 <p><h3>Usado para o layout</h3></p>
 <li>grid-template-columns</li>
