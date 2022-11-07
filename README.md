@@ -42,3 +42,4 @@ Projeto de um calculadora | HTML-JavaScript-CSS
 <li>font-family - Cascadia Code ExtraLight</li>
 </ul><br>
 Um simples projeto em HTML, CSS e Java Script com o objetivo de prática, estudo e aplicabilidade de algumas tags.
+![print-calc](https://user-images.githubusercontent.com/115714717/200297166-2e1877ec-3048-470f-b0ca-4ce203823a76.png)
